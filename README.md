@@ -1,2 +1,2 @@
 # Education
-Works for the coursera's education
+Works for the coursera's platform
