@@ -1,0 +1,46 @@
+/* My custom style for the Assignment 2 */
+
+
+body{
+	height: auto;
+	margin: 2em;
+}
+
+.block-chicken{
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	border: 1px solid black;
+	background-color: #6f6f6c;
+	position: relative;
+}
+div.title-chicken{
+	position: absolute;
+	float: right;
+	width: 100px;
+	text-align: right;
+	font-size: 18px;
+	padding: .3em;
+	color: white;
+	background-color: #f54111;
+}
+
+.block-beef{
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	border: 1px solid black;
+}
+.title-beef{
+	float: right;
+	text-align: center;
+	width: 100px;
+	clear: both;
+}
+
+.block-sushi{
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	border: 1px solid black;
+}
