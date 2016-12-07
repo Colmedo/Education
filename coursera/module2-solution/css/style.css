@@ -1,5 +1,8 @@
 /* My custom style for the Assignment 2 */
 
+*{
+	box-sizing: border-box;
+}
 
 body{
 	height: auto;
@@ -8,39 +11,75 @@ body{
 
 .block-chicken{
 	display: inline-block;
-	width: 200px;
+	position: relative;
+	width: 32%;
 	height: auto;
 	border: 1px solid black;
-	background-color: #6f6f6c;
-	position: relative;
+	color: #d7d2d2;
+	background-color: #6e6e6e;
 }
-div.title-chicken{
+.title-chicken{
 	position: absolute;
-	float: right;
-	width: 100px;
-	text-align: right;
-	font-size: 18px;
-	padding: .3em;
+	width: 50%;
+	left: 50%;
+	text-align: center;
+	padding: .2em;
 	color: white;
-	background-color: #f54111;
+	margin-top: 0;
+	background-color: #d7b10f;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.text-chicken{
+	padding: 25px 25px 5px 25px;
 }
 
 .block-beef{
 	display: inline-block;
-	width: 200px;
+	width: 32%;
 	height: auto;
 	border: 1px solid black;
+	position: relative;
+	margin: 20px;
+	color: #FFF;
+	background-color: #6e6e6e;
 }
 .title-beef{
-	float: right;
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	background-color: #9a2a0c;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	text-align: center;
-	width: 100px;
-	clear: both;
+	color: white;
+	margin-top: 0;
+	padding: .2em;
 }
-
+.text-beef{
+	padding: 25px 25px 5px 25px;
+}
 .block-sushi{
 	display: inline-block;
-	width: 200px;
+	width: 32%;
 	height: auto;
 	border: 1px solid black;
+	position: relative;
+	color: #FFF;
+	background-color: #6e6e6e;
+}
+.title-sushi{
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	background-color: #349428;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	padding: .2em;
+}
+.text-sushi{
+	padding: 25px 25px 5px 25px;
 }
