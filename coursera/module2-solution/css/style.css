@@ -13,6 +13,9 @@ a{
 	text-decoration: none;
 	color: #b07342;
 }
+a:hover{
+	color: #000;
+}
 footer{
 	padding: 3em;
 }
