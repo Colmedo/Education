@@ -19,7 +19,7 @@ footer{
 .block-chicken{
 	display: inline-block;
 	position: relative;
-	width: 32%;
+	width: 31%;
 	height: auto;
 	border: 1px solid black;
 	color: #FFF;
@@ -46,11 +46,11 @@ footer{
 
 .block-beef{
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	height: auto;
 	border: 1px solid black;
 	position: relative;
-	margin: 20px;
+	margin: 20px 3% 20px 3%;
 	color: #FFF;
 	background-color: #6e6e6e;
 	text-align: justify;
@@ -75,7 +75,7 @@ footer{
 
 .block-sushi{
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	height: auto;
 	border: 1px solid black;
 	position: relative;
@@ -102,13 +102,14 @@ footer{
 	******** Media Queries ********
 */
 
+
 /* Screen Tablet window is between 768px and 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
 	.block-chicken{width: 48%;}
 	.title-chicken{width: 40%;left: 60%;}
 
-	.block-beef{width: 48%;margin: 20px 0px 32px 32px;}
+	.block-beef{width: 48%;margin: 20px 0px 32px 3%;}
 	.title-beef{width: 40%;left: 60%;}
 
 	.block-sushi{width: auto;}
