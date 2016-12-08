@@ -9,6 +9,10 @@ body{
 	margin: 2em;
     font-family: 'Nunito', sans-serif;
 }
+a{
+	text-decoration: none;
+	color: #b07342;
+}
 footer{
 	padding: 3em;
 }
